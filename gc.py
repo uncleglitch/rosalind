@@ -1,4 +1,5 @@
 def calculateGC(nts):
+    """Computing GC Content"""
     gc_counter = 0
     for nt in nts:
         if nt is 'C' or nt is 'G':
